@@ -8,7 +8,8 @@ logging.getLogger("pyrogram").setLevel(logging.ERROR)
 
 from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
-from info import SESSION, API_ID, API_HASH, BOT_TOKEN, NJAN, U_NAME, B_NAME
+from info import SESSION, API_ID, API_HASH, BOT_TOKEN
+from utils import temp
 
 class Bot(Client):
 
@@ -26,9 +27,9 @@ class Bot(Client):
     async def start(self):
         await super().start()
         njan = await self.get_me()
-        NJAN = njan.id
-        U_NAME = njan.username
-        B_NAME = njan.first_name
+        temp.NJAN = njan.id
+        temp.U_NAME = njan.username
+        temp.B_NAME = njan.first_name
         logging.info(f"{njan.first_name} with Pyrogram v{__version__} (Layer {layer}) started on the bot with username @{njan.username}.")
 
     async def stop(self, *args):
