@@ -20,7 +20,7 @@
 * `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
 * `ADMINS`: Type the Telegram ID of those who needs access to the admin commands...
 * `SESSION`: Type any session name as you wish...
-* `FSub_Channel`: Type your force subscription channel's username without @
+* `FSub_Channel`: Type your force subscription channel's ID
 
 ### Optional Variables
 * `MOVIE_PIC`: Give a telegraph image link which is used for Anti Movie Mode
