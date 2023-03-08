@@ -70,14 +70,11 @@ MV_TXT = """
 
 ᴏʟᴅ ᴀɴᴅ ɴᴇᴡ ᴍᴏᴠɪᴇs ᴀᴠᴀɪʟᴀʙʟᴇ...
 
-Website: https://joelkb.github.io/Filmy-Harbour-Web/
+• <a href='https://t.me/+jMyhIRhcp9EyZmJl'>ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ᴊᴏɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a>
 
+• <a href='https://t.me/+GOFte-Rz2tcxODg1'>ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</a>
 
-• <a href='https://t.me/+5olNhPeyW31jYjBl'>ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ᴊᴏɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a>
-
-• <a href='https://t.me/+1Zr7U1TCCMw2YmJl'>ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ᴊᴏɪɴ ɴᴇᴡ ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ</a>
-
-• <a href='https://t.me/+asOwq8hpxSgwOTY9'>ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ᴊᴏɪɴ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ</a></b>"""
+• <a href='https://t.me/+vu3FBEXifbRhNTk9'>ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ᴊᴏɪɴ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ</a></b>"""
 
 KICKED = """
 <b>Sorry {}, You are banned to use me 😔</b>"""
