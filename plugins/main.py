@@ -31,7 +31,7 @@ async def start_message(bot, message):
                   [[
                     InlineKeyboardButton("Join Our Updates Channel 📢", url=chat.invite_link)
                  ],[
-                    InlineKeyboardButton("Try Again 🔄", url="t.me/{U_NAME}?start")
+                    InlineKeyboardButton("Try Again 🔄", url=f"t.me/{U_NAME}?start")
                   ]]
                 )
             )
