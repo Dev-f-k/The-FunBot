@@ -32,9 +32,3 @@ MV_PIC = environ.get("MV_PIC", "https://telegra.ph/file/76dc7b46a4e9003759e87.jp
 FSub_Channel = int(environ.get("FSub_Channel", ""))
 
 SESSION = environ.get("SESSION", "") 
-
-NJAN = None
-
-U_NAME = None
-
-B_NAME = None
