@@ -1,5 +1,5 @@
 from pyrogram import Client, filters, enums
-from info import START_IMG, LOOK_IMG, MOVIE_PIC, COMMAND_HAND_LER, ADMINS, MV_PIC, FSub_Channel, U_NAME
+from info import START_IMG, LOOK_IMG, MOVIE_PIC, COMMAND_HAND_LER, ADMINS, MV_PIC, FSub_Channel
 from script import START_TXT, LOOK_TXT, HELP_TXT, ABOUT_TXT, SOURCE_TXT, MOVIE_ENG_TXT, MOVIE_MAL_TXT, OWNER_INFO, MV_TXT, KICKED, FSUB
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, Message, InlineQuery, InlineQueryResultArticle, InputTextMessageContent
 from pyrogram.errors import UserNotParticipant, FloodWait, MessageNotModified, ChatAdminRequired
@@ -8,6 +8,7 @@ from urllib.parse import quote
 import random
 import os
 import asyncio
+from utils import temp
 import logging
 logger = logging.getLogger(__name__)
 
@@ -31,7 +32,7 @@ async def start_message(bot, message):
                   [[
                     InlineKeyboardButton("Join Our Updates Channel 📢", url=chat.invite_link)
                  ],[
-                    InlineKeyboardButton("Try Again 🔄", url=f"t.me/{U_NAME}?start")
+                    InlineKeyboardButton("Try Again 🔄", url=f"t.me/{temp.U_NAME}?start")
                   ]]
                 )
             )
@@ -52,7 +53,7 @@ async def start_message(bot, message):
             caption=(START_TXT.format(message.from_user.mention)),
             reply_markup=InlineKeyboardMarkup(
                       [[
-                        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'https://t.me/{U_NAME}?startgroup=true')
+                        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'https://t.me/{temp.U_NAME}?startgroup=true')
                      ],[
                         InlineKeyboardButton('🤴ʙᴏᴛ ᴏᴡɴᴇʀ🤴', callback_data="owner_info"),
                         InlineKeyboardButton('🍿ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🍿', callback_data="movie_grp")
@@ -98,7 +99,7 @@ async def cb_checker(bot, query: CallbackQuery):
 
         elif query.data == "start":
             buttons = [[
-                        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'https://t.me/{U_NAME}?startgroup=true')
+                        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'https://t.me/{temp.U_NAME}?startgroup=true')
                      ],[
                         InlineKeyboardButton('🤴ʙᴏᴛ ᴏᴡɴᴇʀ🤴', callback_data="owner_info"),
                         InlineKeyboardButton('🍿ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🍿', callback_data="movie_grp")
@@ -266,7 +267,7 @@ async def inline(bot, query: InlineQuery):
             InlineQueryResultArticle(
                 title = "Movies",
                 description = "For new and old movies and series in all languages, CLICK ME !",
-                thumb_url = "https://telegra.ph/file/7c924bffb69a01d834ba4.jpg",
+                thumb_url = "https://telegra.ph/file/76dc7b46a4e9003759e87.jpg",
                 input_message_content = InputTextMessageContent(
                     message_text = (MV_TXT)
                 ),
