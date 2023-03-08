@@ -276,8 +276,7 @@ async def inline(bot, query: InlineQuery):
                       InlineKeyboardButton("ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ᴊᴏɪɴ ɢʀᴏᴜᴘ", url="https://t.me/+jMyhIRhcp9EyZmJl"),
                       InlineKeyboardButton("ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+vu3FBEXifbRhNTk9")
                    ],[
-                      InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/+GOFte-Rz2tcxODg1"),
-                      InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close_data")
+                      InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/+GOFte-Rz2tcxODg1")
                     ]]
                 )
             )
